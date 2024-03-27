@@ -19,7 +19,7 @@ mongoose.connect('mongodb+srv://hallmarkmanagement54:hallmarkmanagement54@hallma
 
 // Allow requests from multiple routes on the frontend domain, including login and register routes
 const allowedOrigins = [
-  "http://localhost:5173" // Remove the space before http
+  "https://hallmarkmoviesnmystries.vercel.app" // Remove the space before http
   // Add other origins as needed
 ];
 
