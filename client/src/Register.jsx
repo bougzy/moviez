@@ -24,7 +24,7 @@ const UserRegistrationComponent = () => {
   const handleFormSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:8000/api/users/register', formData);
+      const response = await axios.post('https://moviez-backend.vercel.app/api/users/register', formData);
       console.log(response.data); // Handle success response
 
       // Redirect to the login page upon successful registration
