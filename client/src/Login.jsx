@@ -129,7 +129,7 @@ const UserLoginComponent = () => {
     try {
       // Simulate a delay of 2 seconds (2000 milliseconds)
       setTimeout(async () => {
-        const response = await axios.post('http://localhost:8000/api/users/login', formData);
+        const response = await axios.post('https://moviez-backend.vercel.app/api/users/login', formData);
         console.log(response.data);
 
         // Redirect to the dashboard with the username upon successful login
